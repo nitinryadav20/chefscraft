@@ -28,21 +28,6 @@ function MenuSidebar() {
               <a>Homepage 1</a>
             </Link>
           </Menu.Item>
-          <Menu.Item key="2">
-            <Link href={process.env.PUBLIC_URL + "/homepage2"}>
-              <a>Homepage 2</a>
-            </Link>
-          </Menu.Item>
-          <Menu.Item key="3">
-            <Link href={process.env.PUBLIC_URL + "/homepage3"}>
-              <a>Homepage 3</a>
-            </Link>
-          </Menu.Item>
-          <Menu.Item key="4">
-            <Link href={process.env.PUBLIC_URL + "/homepage4"}>
-              <a>Homepage 4</a>
-            </Link>
-          </Menu.Item>
         </SubMenu>
         <SubMenu key="sub2" title="Shop">
           <SubMenu key="sub2-1" title="Shop detail">

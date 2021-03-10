@@ -40,7 +40,7 @@ function Menu({ containerType }) {
                 <a>
                   <img
                     src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
-                    alt="Logo"
+                    alt="Logo" height="40" width="40"
                   />
                 </a>
               </Link>
@@ -49,10 +49,27 @@ function Menu({ containerType }) {
               fillData={productsData}
               placeholder="What are you looking for ?"
             />
+             <div className="top-nav-links">
+            <div className="top-nav-links__item">
+              <Link href={process.env.PUBLIC_URL + "/#"}>
+                <a>
+                  <i className="icon_question_alt2" />
+                  Help
+                </a>
+              </Link>
+            </div>
+            <div className="top-nav-links__item">
+              <Link href={process.env.PUBLIC_URL + "/#"}>
+                <a>
+                  <i className="icon_gift" /> Offers
+                </a>
+              </Link>
+            </div>
+          </div>
             <div className="menu-functions">
               <Button>
                 <Link href="#">
-                  <a>Join now</a>
+                  <a>Login</a>
                 </Link>
               </Button>
               <div
@@ -77,7 +94,7 @@ function Menu({ containerType }) {
                     process.env.PUBLIC_URL +
                     "/assets/images/header/menu-bag.png"
                   }
-                  alt=""
+                  alt="cart"
                 />
                 <span>{getTotalProductInCart(cartState)}</span>
               </div>

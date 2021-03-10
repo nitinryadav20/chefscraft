@@ -43,39 +43,6 @@ export default function SubpagesSidebar() {
               <span>Homepage 01</span>
             </a>
           </Link>
-          <Link href={process.env.PUBLIC_URL + "/homepage2"}>
-            <a>
-              <img
-                src={
-                  process.env.PUBLIC_URL + "/assets/images/subpages/home2.png"
-                }
-                alt="Homepage 02"
-              />
-              <span>Homepage 02</span>
-            </a>
-          </Link>
-          <Link href={process.env.PUBLIC_URL + "/homepage3"}>
-            <a>
-              <img
-                src={
-                  process.env.PUBLIC_URL + "/assets/images/subpages/home3.png"
-                }
-                alt="Homepage 03"
-              />
-              <span>Homepage 03</span>
-            </a>
-          </Link>
-          <Link href={process.env.PUBLIC_URL + "/homepage4"}>
-            <a>
-              <img
-                src={
-                  process.env.PUBLIC_URL + "/assets/images/subpages/home4.png"
-                }
-                alt="Homepage 04"
-              />
-              <span>Homepage 04</span>
-            </a>
-          </Link>
         </div>
       </Drawer>
     </ClientOnlyPortal>

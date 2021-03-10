@@ -14,7 +14,6 @@ function Header({ containerType, headerStyle }) {
   };
   return (
     <div className={`header-one ${renderStyleClass(headerStyle)}`}>
-      <TopNav containerType={containerType} />
       <Menu containerType={containerType} />
     </div>
   );

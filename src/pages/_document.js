@@ -10,12 +10,12 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta
-            name="title"
-            content="Stora - React Ecommerce Template with NextJs, AntDesign, ReactHooks"
+            name="Chefs Craft"
+            content="Chefs Craft - Food Crafted!"
           />
           <meta
-            name="description"
-            content="Stora - React Ecommerce Template with NextJs, AntDesign, ReactHooks"
+            name="Chefs Craft"
+            content="Chefs Craft - Food Crafted!"
           />
           <link rel="icon" href="/fav.png" />
           <link

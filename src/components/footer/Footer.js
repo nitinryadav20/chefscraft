@@ -18,16 +18,16 @@ function Footer({ containerType }) {
                   <a>
                     <img
                       src={
-                        process.env.PUBLIC_URL + "/assets/images/logo-dark.png"
+                        process.env.PUBLIC_URL + "/assets/images/full-logo.png"
                       }
                       alt="Logo"
                     />
                   </a>
                 </Link>
-                <p>7176 Blue Spring Lane Santa Monica, CA 90403</p>
+                <p>Hyderabad - Telangana, India.</p>
                 <ul>
-                  <li>hi.avitex@gmail.com</li>
-                  <li>+01 123 456 888</li>
+                  <li>chef@chefscraft.in</li>
+                  <li>+91 8142-040-390</li>
                 </ul>
               </div>
             </Col>
@@ -63,12 +63,7 @@ function Footer({ containerType }) {
             </Col>
             <Col className="gutter-row" span="24" sm={18} lg={8}>
               <div className="footer-top-item -col-three">
-                <h5 className="footer-title">Subscribe to our Newsletter</h5>
-                <p>
-                  Subscribe to our newsletter and get 10% off your first
-                  purchase
-                </p>
-                <FooterSubcribe url="https://jster.us7.list-manage.com/subscribe/post?u=ed40c0084a0c5ba31b3365d65&id=ec6f32bf5e" />
+                <h5 className="footer-title">We accept payments by</h5>
                 <img
                   src={
                     process.env.PUBLIC_URL + "/assets/images/footer/payment.png"
