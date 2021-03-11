@@ -6,7 +6,7 @@ const initialState = {
     locales: "us-US",
     currency: "USD",
   },
-  category: "clothing",
+  category: "veg",
   keyword: "",
 };
 

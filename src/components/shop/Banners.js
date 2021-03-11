@@ -1,4 +1,4 @@
-import { Row, Col, Divider } from "antd";
+import { Row, Col } from "antd";
 import Link from "next/link";
 import Container from "../other/Container";
 

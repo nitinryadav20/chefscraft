@@ -47,5 +47,8 @@
         }
       }
     }
+    @include mq(lg) {
+      display: none;
+    }
   }
 }

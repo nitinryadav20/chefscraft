@@ -49,23 +49,23 @@ function Menu({ containerType }) {
               fillData={productsData}
               placeholder="What are you looking for ?"
             />
-             <div className="top-nav-links">
-            <div className="top-nav-links__item">
-              <Link href={process.env.PUBLIC_URL + "/#"}>
-                <a>
-                  <i className="icon_question_alt2" />
+            <div className="top-nav-links">
+              <div className="top-nav-links__item">
+                <Link href={process.env.PUBLIC_URL + "/#"}>
+                  <a>
+                    <i className="icon_question_alt2" />
                   Help
                 </a>
-              </Link>
-            </div>
-            <div className="top-nav-links__item">
-              <Link href={process.env.PUBLIC_URL + "/#"}>
-                <a>
-                  <i className="icon_gift" /> Offers
+                </Link>
+              </div>
+              <div className="top-nav-links__item">
+                <Link href={process.env.PUBLIC_URL + "/#"}>
+                  <a>
+                    <i className="icon_gift" /> Offers
                 </a>
-              </Link>
+                </Link>
+              </div>
             </div>
-          </div>
             <div className="menu-functions">
               <Button>
                 <Link href="#">
