@@ -1,19 +1,11 @@
 import React from "react";
 
 import Menu from "./elements/Menu";
-import TopNav from "./elements/TopNav";
 
-function Header({ containerType, headerStyle }) {
-  const renderStyleClass = (type) => {
-    switch (type) {
-      case "two":
-        return "-style-two";
-      default:
-        return "default";
-    }
-  };
+function Header({ containerType}) {
+ 
   return (
-    <div className={`header-one ${renderStyleClass(headerStyle)}`}>
+    <div className={`header-one`}>
       <Menu containerType={containerType} />
     </div>
   );

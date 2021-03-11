@@ -84,28 +84,6 @@ function MenuSidebar() {
           </Link>
         </Menu.Item>
       </Menu>
-      <div className="menu-sidebar-selects">
-        <Select
-          defaultValue={globalState.language}
-          style={{ width: 120 }}
-          bordered={false}
-          onChange={onSelectLanguage}
-        >
-          <Option value="en">English</Option>
-          <Option value="jp">Japanese</Option>
-          <Option value="vi">Vietnamese</Option>
-        </Select>
-        <Select
-          defaultValue={globalState.currency.currency}
-          style={{ width: 150 }}
-          bordered={false}
-          onChange={onSelectCurrency}
-        >
-          <Option value="USD">USD - Dollar</Option>
-          <Option value="JPY">JPY - Yen</Option>
-          <Option value="VND">VND - Vietnam dong</Option>
-        </Select>
-      </div>
     </div>
   );
 }

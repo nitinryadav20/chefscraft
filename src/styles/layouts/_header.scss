@@ -1,32 +1,3 @@
-.header-one {
-  &.-style-two {
-    .menu {
-      background-color: setColor(blue);
-      &-search {
-        &__form {
-          &-input {
-            .ant-btn {
-              background-color: setColor(red);
-              &:hover {
-                background-color: lighten(setColor(red), 20%);
-              }
-            }
-          }
-        }
-      }
-      &-functions {
-        .menu-function-item {
-          span {
-            background-color: setColor(red);
-          }
-        }
-      }
-    }
-    .top-nav {
-      background-color: setColor(blue);
-    }
-  }
-}
 
 .header-scroll-wrapper {
   position: absolute;

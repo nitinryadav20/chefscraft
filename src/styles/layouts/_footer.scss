@@ -1,35 +1,4 @@
 .footer {
-  &-subcribe {
-    &__form {
-      margin-bottom: emCal(16, 30);
-      &.ant-form {
-        position: relative;
-        .ant-input {
-          border-width: 0 0 2px 0;
-          border-color: setShadeColor(dark);
-          border-right-width: 0 !important;
-          font-size: emCal(16, 15);
-          height: emCal(15, 45);
-          padding: 0;
-          &:focus {
-            border-color: setColor(red);
-          }
-        }
-        .ant-btn {
-          position: absolute;
-          top: 50%;
-          right: 0;
-          color: setShadeColor(dark);
-          font-weight: 700;
-          transform: translateY(-50%);
-          padding: 0;
-          &:hover {
-            color: setColor(red);
-          }
-        }
-      }
-    }
-  }
   &-title {
     @include typo($up: true, $fw: 700);
   }
@@ -44,15 +13,17 @@
       &.-col-one {
         a {
           display: inline-block;
-          margin-bottom: emCal(16, 40);
+          margin-bottom: emCal(16, 30);
           img {
-            @include imgCenter($width: 110px, $type: contain);
+            @include imgCenter($width: 200px, $height:76px, $type: contain);
+            margin-left: auto;
+            margin-right: auto;
           }
         }
         p {
           @include typo($fsz: emCal(16, 15), $lh: emCal(15, 26));
-          max-width: 254px;
-          margin-bottom: emCal(15, 30);
+          max-width: 350px;
+          margin-bottom: emCal(15, 20);
         }
         ul {
           list-style: none;
@@ -63,7 +34,7 @@
       }
       &.-col-two {
         .footer-title {
-          margin-bottom: emCal(16, 40);
+          margin-bottom: emCal(16, 30);
         }
         ul {
           list-style: none;

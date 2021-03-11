@@ -2,9 +2,8 @@
   "information": [
     { "name": "About Us", "src": "/about" },
     { "name": "Contact Us", "src": "/contact" },
-    { "name": "Testmonials", "src": "/contact" },
     { "name": "Terms & Conditions", "src": "/contact" },
-    { "name": "Affiliate Program", "src": "/contact" }
+    { "name": "Frequently Asked Questions", "src": "/contact" }
   ],
   "account": [
     { "name": "Orders", "src": "/contact" },

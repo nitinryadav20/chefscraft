@@ -11,8 +11,6 @@ const ScrollHeader = WithHeaderScroll(Header);
 
 function LayoutOne({
   title,
-  headerStyle,
-  containerType,
   children,
   clearSpaceTop,
 }) {
@@ -25,11 +23,11 @@ function LayoutOne({
       <Head>
         <title>{title}</title>
       </Head>
-      <ScrollHeader headerStyle={headerStyle} containerType={containerType} />
+      <ScrollHeader/>
       <div className={`content ${classNames({ "clear-top": clearSpaceTop })}`}>
         {children}
       </div>
-      <Footer containerType={containerType} />
+      <Footer />
       <BackTop />
     </>
   );

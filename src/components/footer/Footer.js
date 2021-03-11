@@ -2,11 +2,12 @@ import React from "react";
 import { Row, Col } from "antd";
 import Link from "next/link";
 
-import FooterSubcribe from "./elements/FooterSubcribe";
 import Container from "../other/Container";
 import links from "../../data/footer-links.json";
 
 function Footer({ containerType }) {
+  var d = new Date();
+  var currentYear = d.getFullYear();
   return (
     <div className="footer">
       <div className="footer-top">
@@ -18,13 +19,13 @@ function Footer({ containerType }) {
                   <a>
                     <img
                       src={
-                        process.env.PUBLIC_URL + "/assets/images/full-logo.png"
+                        process.env.PUBLIC_URL + "/assets/images/side-logo.png"
                       }
                       alt="Logo"
                     />
                   </a>
                 </Link>
-                <p>Hyderabad - Telangana, India.</p>
+                <p>Hyderabad - Telangana, India</p>
                 <ul>
                   <li>chef@chefscraft.in</li>
                   <li>+91 8142-040-390</li>
@@ -77,7 +78,7 @@ function Footer({ containerType }) {
       </div>
       <div className="footer-bottom">
         <Container type={containerType}>
-          <p>Copyright © 2020 Avitex Inc. All rights reserved</p>
+          <p>Copyright © {currentYear} Chefs Craft. All rights reserved </p>
         </Container>
       </div>
     </div>
