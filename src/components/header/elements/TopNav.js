@@ -3,22 +3,13 @@ import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import React from "react";
 
-import {
-  setGlobalLanguage,
-  setGlobalCurrency,
-} from "../../../redux/actions/globalActions";
+
 import Container from "../../other/Container";
 
 function TopNav({ containerType }) {
   const { Option } = Select;
   const dispatch = useDispatch();
   const globalState = useSelector((state) => state.globalReducer);
-  const onSelectLanguage = (value) => {
-    dispatch(setGlobalLanguage(value));
-  };
-  const onSelectCurrency = (value) => {
-    dispatch(setGlobalCurrency(value));
-  };
   return (
     <div className="top-nav">
       <Container type={containerType}>

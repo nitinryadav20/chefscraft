@@ -17,13 +17,13 @@ export default function Home() {
   );
   return (
     <LayoutOne title="Chefs Craft">
-      <Banners />
+      {/* <Banners /> */}
       <ShopLayout
         fourColumn
         shopSidebarResponsive={{ xs: 24, lg: 4 }}
         shopContentResponsive={{ xs: 24, lg: 20 }}
         productResponsive={{ xs: 12, sm: 8, md: 6 }}
-        productPerPage={15}
+        productPerPage={12}
         data={[...data]}
       />
     </LayoutOne>

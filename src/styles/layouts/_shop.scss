@@ -7,7 +7,10 @@
       }
       h5 {
         @include typo($fsz: emCal(16, 30), $fw: 800, $cpt: true);
-        margin-bottom: emCal(30, 45);
+        margin-bottom: emCal(30, 25);
+        @include mq(lg) {
+          display: none;
+        }
       }
       &__subcategory {
         ul {
